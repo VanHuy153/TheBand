@@ -1,0 +1,55 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+1.Từ ngoài vào trong
+2.Từ trên xuống dưới
+3.Từ tổng quan đến chi tiết
+*/
+
+/* 
+1.Vị trí
+2.Kích thước
+3.Màu sắc
+4.Kiểu dáng(Kiểu chữ, hình tròn, vuông,...)
+*/
+
+#main{
+
+}
+
+header{
+    background-color: #000;
+    height: 46px;
+}
+
+.nav>li{
+    display:inline-block;
+
+}
+
+.nav>li>a{
+    color: #fff;
+}
+
+.sub-nav{
+    display: none;
+}
+
+slider{
+    color:red;
+
+}
+
+content{
+
+}
+
+footer{
+
+}
+
