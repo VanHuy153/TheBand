@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+.bg-black{
+    background-color: #000 !important;
+}
+.text-white{
+    color: #fff !important;
+}
+
 /* 
 1.Từ ngoài vào trong
 2.Từ trên xuống dưới
@@ -129,6 +136,41 @@ header .search-icon{
 }
 
 content{
+}
+
+.section{
+
+    
+    padding: 64px 16px;
+}
+
+.section-heading{
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.4;
+    font-weight: 500px;
+    letter-spacing: 4px;
+    margin: 10px 0px;
+}
+
+.section-subheading{
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.4;
+    opacity: 0.6;
+    margin: 15px 0px;
+    font-style: italic;
+}
+
+.about-text{
+    width: 800px;
+    margin: 15px 0px;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: justify;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
