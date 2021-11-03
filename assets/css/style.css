@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 15px;
+    line-height: 1.4;
 }
 
 .bg-black{
@@ -142,7 +144,7 @@ content{
 }
 
 .section{
-    width: 800px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 16px;
@@ -193,6 +195,69 @@ content{
 
 #team .member img{
     width: 153px;
+}
+
+.tour-time{
+    background-color: #fff;
+}
+
+.tour-time li{
+    list-style: none;
+    color: grey;
+    line-height: 1.5;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sold-out{
+    color: #fff;
+    background-color: red;
+    padding: 4px 8px;
+    margin-left: 16px;
+}
+.tour-time .number{
+    float: right;
+    background-color: #000;
+    color: #fff;
+    padding: 0px 8px;
+    border-radius: 50%;
+}
+
+.tour{
+    margin: 32px -8px;
+}
+
+.tour-item{
+    padding: 0px 8px;
+    width: calc(100%/3);
+    float: left;
+}
+
+.tour-item img{
+    width: 100%;
+    margin-bottom: -3px;
+}
+
+.tour-item .tour-content{
+    padding: 0px 16px;
+    background-color: #fff;
+}
+
+.tour-item .tour-content p{
+    padding-top: 15px;
+}
+
+.tour-item .tour-content .time{
+    padding-top: 15px;
+    opacity: 0.6;
+}
+
+.margin{}
+
+.tour-item .Button{
+    display: inline-block;
+    margin: 16px 0px;
+    padding: 8px 16px;
 }
 
 footer{
