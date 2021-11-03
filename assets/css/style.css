@@ -11,6 +11,9 @@
 .text-white{
     color: #fff !important;
 }
+.clear{
+    clear: both;
+}
 
 /* 
 1.Từ ngoài vào trong
@@ -139,8 +142,9 @@ content{
 }
 
 .section{
-
-    
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 64px 16px;
 }
 
@@ -163,14 +167,32 @@ content{
 }
 
 .about-text{
-    width: 800px;
+    width: 100%;
     margin: 15px 0px;
     font-size: 15px;
     line-height: 1.4;
     text-align: justify;
-    
-    margin-left: auto;
-    margin-right: auto;
+}
+
+#team{
+    padding: 32px 0px;
+
+}
+
+#team .member{
+    margin-bottom: 15px;
+    text-align: center;
+    float: left;
+    width: calc(100% / 3);
+}
+
+#team .member .name{
+    margin: 15px 0px;
+    font-size: 15px;
+}
+
+#team .member img{
+    width: 153px;
 }
 
 footer{
